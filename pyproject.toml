@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "active-learning-methods"
+version = "0.1.0"
+description = ""
+authors = ["Julien Perichon <julienperichon023@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.10"
+streamlit = "^1.10.0"
+tensorflow = "^2.9.1"
+tensorflow-datasets = "^4.6.0"
+tensorflow-hub = "^0.12.0"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
